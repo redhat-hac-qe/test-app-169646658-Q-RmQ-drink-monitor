@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-basic-169646658
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/hacdev/rdkfzkll-tenant/test-app-169646658/python-basic-169646658@sha256:518bdf826160b4b88a2bbd41bc7de273876dde5cb0211ceb40d0e17f955676a5
+        name: my-python
+        resources: {}
+status: {}
